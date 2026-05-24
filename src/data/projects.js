@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     title: 'Curriculam Q&A Assitant',
     description:
-      'End-to-end ML pipeline predicting telecom customer churn with 94% accuracy. Features automated data preprocessing, feature engineering, and model selection using XGBoost and LightGBM.',
+      'Fine-tuned Phi-2 on SciQ using QLoRA | FastAPI inference API | 4-bit quantization | Docker Compose | W&B experiment tracking',
     tags: ['Python', 'XGBoost', 'Scikit-learn', 'Pandas'],
     github: 'https://github.com/naveenr-ds/curriculum-qa-assistant.git',
     demo: null,
@@ -21,7 +21,7 @@ const projects = [
     id: 3,
     title: 'PhonePe Pulse',
     description:
-      'Interactive time-series forecasting dashboard with Prophet and ARIMA models. Visualizes trends, seasonality decomposition, and prediction intervals for business stakeholders.',
+      'Interactive Streamlit dashboard analyzing PhonePe Pulse data — transactions, user trends, and insights',
     tags: ['Time Series', 'Prophet', 'Streamlit', 'Plotly'],
     github: 'https://github.com/naveenr-ds/Phonepe_pulse.git',
     demo: null,
@@ -30,9 +30,9 @@ const projects = [
     id: 4,
     title: 'Luxury Housing Analysis',
     description:
-      'Deep learning REST API for multi-class image classification. Built with transfer learning on ResNet50, deployed as a containerized microservice with automated CI/CD.',
+      'End-to-end real estate analytics solution for Bengaluru luxury housing using Python, SQL, and Power BI. Covers data cleaning, preprocessing, and transformation on 100K+ records, SQL warehousing, EDA, and interactive dashboards for business insights, market trends, and storytelling',
     tags: ['Deep Learning', 'TensorFlow', 'Docker', 'REST API'],
-    github: 'https://github.com/naveenr-ds',
+    github: 'https://github.com/naveenr-ds/bengaluru-luxury-housing-analysis.git',
     demo: null,
   },
 
