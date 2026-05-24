@@ -35,7 +35,7 @@ function Contact() {
               <FaGithub />
             </a>
             <a
-              href="https://linkedin.com/in/naveenr-ds"
+              href="https://www.linkedin.com/in/naveenkumar-ds"
               target="_blank"
               rel="noopener noreferrer"
               className="social-link"
