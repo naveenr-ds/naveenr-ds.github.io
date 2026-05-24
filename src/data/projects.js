@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 1,
-    title: 'Customer Churn Predictor',
+    title: 'Curriculam Q&A Assitant',
     description:
       'End-to-end ML pipeline predicting telecom customer churn with 94% accuracy. Features automated data preprocessing, feature engineering, and model selection using XGBoost and LightGBM.',
     tags: ['Python', 'XGBoost', 'Scikit-learn', 'Pandas'],
@@ -35,24 +35,7 @@ const projects = [
     github: 'https://github.com/naveenr-ds',
     demo: null,
   },
-  {
-    id: 5,
-    title: 'Recommendation System',
-    description:
-      'Collaborative filtering recommendation engine using matrix factorization and neural collaborative filtering. Handles cold-start with content-based hybrid approach.',
-    tags: ['RecSys', 'Python', 'SQL', 'Spark'],
-    github: 'https://github.com/naveenr-ds',
-    demo: null,
-  },
-  {
-    id: 6,
-    title: 'Data Pipeline Orchestrator',
-    description:
-      'Automated ETL pipeline orchestrating data ingestion, transformation, and quality checks across multiple sources. Processes 10M+ records daily with fault tolerance.',
-    tags: ['Airflow', 'Python', 'PostgreSQL', 'AWS'],
-    github: 'https://github.com/naveenr-ds',
-    demo: null,
-  },
+
 ];
 
 export default projects;
