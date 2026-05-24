@@ -15,7 +15,7 @@ function Hero() {
         </div>
 
         <h1>
-          Hi, I'm <span className="accent">Naveen R</span>
+          Hi, I'm <span className="accent">Naveen Kumar R</span>
         </h1>
 
         <h2>Data Science Student &amp; AI Engineer Intern</h2>

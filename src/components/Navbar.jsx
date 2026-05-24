@@ -33,7 +33,7 @@ function Navbar() {
           className="navbar-logo"
           onClick={closeMenu}
         >
-          naveen<span>.</span>
+          Naveen <span>.</span>
         </Link>
 
         <div

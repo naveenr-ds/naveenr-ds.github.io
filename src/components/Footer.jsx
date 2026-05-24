@@ -3,7 +3,7 @@ function Footer() {
     <footer className="footer">
       <div className="container">
         <p className="footer-text">
-          &copy; {new Date().getFullYear()} Naveen R &middot; Built with React
+          &copy; {new Date().getFullYear()} Naveen Kumar R &middot; Built with React &middot; Powered by Curiosity
         </p>
       </div>
 
