@@ -3,7 +3,7 @@ import '../styles/about.css';
 const skillCategories = [
   {
     label: 'Languages',
-    skills: ['Python', 'SQL', 'R', 'JavaScript'],
+    skills: ['Python', 'SQL','HTML','CSS','JavaScript'],
   },
   {
     label: 'ML / DL',
@@ -22,7 +22,7 @@ const skillCategories = [
   },
   {
     label: 'Tools & Infra',
-    skills: ['Git', 'Docker', 'AWS', 'Airflow', 'FastAPI', 'PostgreSQL'],
+    skills: ['Git', 'Docker', 'AWS', 'FastAPI', 'PostgreSQL','RabbitMQ','Redis','Ollama','Githup Copilot'],
   },
 ];
 
@@ -37,25 +37,15 @@ function About() {
 
         <div className="about-grid">
           <div className="about-text">
-            <h3>Building the future with data</h3>
+            <h3>Building the future with AI and Data</h3>
             <p>
-              I'm a Data Scientist and Machine Learning Engineer with a passion
-              for uncovering patterns in complex datasets and building
-              production-grade ML systems. My work spans the full data science
-              lifecycle — from exploratory analysis and feature engineering to
-              model development, deployment, and monitoring.
+              I'm a Data Science student currently working as an AI Engineer Intern at EthicaTec India Pvt Ltd. My journey is driven by a passion for building intelligent systems and solving real-world problems.
             </p>
             <p>
-              I thrive at the intersection of statistics, engineering, and
-              domain expertise, building solutions that are not just accurate
-              but also scalable and maintainable. Whether it's a
-              recommendation engine, an NLP pipeline, or a forecasting model,
-              I focus on delivering real business impact.
+              With a strong foundation in AI and Large Language Model (LLM) concepts, alongside Full Stack development skills, I thrive at the intersection of model engineering and application development. I focus on creating solutions that are not just accurate but also scalable and user-centric.
             </p>
             <p>
-              When I'm not training models, you'll find me exploring the latest
-              research papers, contributing to open source, or writing about
-              data science best practices.
+              Whether it's fine-tuning LLMs, building end-to-end ML pipelines, or developing interactive full-stack applications, I am always eager to learn, build, and deliver impactful technology.
             </p>
           </div>
 

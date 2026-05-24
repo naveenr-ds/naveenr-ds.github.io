@@ -18,13 +18,10 @@ function Hero() {
           Hi, I'm <span className="accent">Naveen R</span>
         </h1>
 
-        <h2>Data Scientist &amp; ML Engineer</h2>
+        <h2>Data Science Student &amp; AI Engineer Intern</h2>
 
         <p>
-          I transform raw data into actionable insights and build intelligent
-          systems that solve real-world problems. Passionate about machine
-          learning, deep learning, and creating data-driven solutions that
-          make a difference.
+          I build intelligent systems that solve real-world problems. Passionate about AI, Large Language Models (LLMs), and Full Stack development to create end-to-end, data-driven solutions.
         </p>
 
         <div className="hero-buttons">

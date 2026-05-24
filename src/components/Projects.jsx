@@ -8,8 +8,7 @@ function Projects() {
       <div className="container">
         <h2 className="section-title">Projects</h2>
         <p className="section-subtitle">
-          A selection of projects I've built — from ML pipelines to
-          production APIs.
+          A selection of projects I've built — spanning AI, Large Language Models, and Full Stack applications.
         </p>
 
         <div className="projects-grid">
