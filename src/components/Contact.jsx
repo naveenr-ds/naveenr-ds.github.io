@@ -14,7 +14,7 @@ function Contact() {
 
           <div className="contact-email">
             <a
-              href="mailto:naveenr.ds@gmail.com"
+              href="mailto:naveenramu2003@gmail.com"
               className="btn btn-primary"
               id="contact-email-btn"
             >

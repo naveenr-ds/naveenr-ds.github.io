@@ -1,5 +1,5 @@
 /* =============================================
-   PROJECTS SECTION
+   PROJECTS SECTION — Light Theme
    ============================================= */
 
 .projects {
@@ -20,39 +20,15 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
-}
-
-.project-card::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: var(--border-radius-lg);
-  padding: 1px;
-  background: linear-gradient(
-    135deg,
-    rgba(108, 99, 255, 0) 0%,
-    rgba(108, 99, 255, 0) 100%
-  );
-  -webkit-mask:
-    linear-gradient(#fff 0 0) content-box,
-    linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  transition: background var(--transition-slow);
-  pointer-events: none;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
 }
 
 .project-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-}
-
-.project-card:hover::before {
-  background: linear-gradient(
-    135deg,
-    rgba(108, 99, 255, 0.3) 0%,
-    rgba(167, 139, 250, 0.15) 100%
-  );
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(108, 99, 255, 0.2);
 }
 
 .project-card-number {
@@ -93,7 +69,7 @@
 
 .project-tag {
   padding: 0.25rem 0.65rem;
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--bg-alt);
   border-radius: var(--border-radius-full);
   font-size: var(--font-size-xs);
   color: var(--muted);
